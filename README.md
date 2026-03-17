@@ -1,27 +1,561 @@
-<h1 align="center">Hi 👋, I'm Vishal Mache</h1>
-<h3 align="center">A passionate frontend developer and aiming to be a full stack developer</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal Mache — GitHub Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=vishalmache&label=Profile%20views&color=0e75b6&style=flat" alt="vishalmache" /> </p>
+  :root {
+    --bg: #0d0f14;
+    --surface: #13161e;
+    --surface2: #1a1e2a;
+    --border: #242836;
+    --accent: #7c6ef2;
+    --accent2: #4ecdc4;
+    --accent3: #f7c59f;
+    --text: #e8eaf0;
+    --muted: #7a8099;
+    --glow: rgba(124, 110, 242, 0.18);
+    --glow2: rgba(78, 205, 196, 0.12);
+  }
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=vishalmache" alt="vishalmache" /></a> </p>
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    padding: 0;
+    overflow-x: hidden;
+  }
 
-<p align="left"> <a href="https://twitter.com/machevishal24114" target="blank"><img src="https://img.shields.io/twitter/follow/machevishal24114?logo=twitter&style=for-the-badge" alt="machevishal24114" /></a> </p>
+  /* Grid background */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(124,110,242,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(124,110,242,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
 
-- 🔭 I’m currently working on [Screenique](https://github.com/VishalMache/Screenique.git)
+  .wrapper {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    position: relative;
+    z-index: 1;
+  }
 
-- 🌱 I’m currently learning **Python and Dart**
+  /* ── HEADER ── */
+  .header {
+    position: relative;
+    padding: 56px 48px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--surface);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
 
-- 📫 How to reach me **vismac9@gmail.com**
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 320px; height: 320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(124,110,242,0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: -40px;
+    width: 220px; height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(78,205,196,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/machevishal24114" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="machevishal24114" height="30" width="40" /></a>
-<a href="https://instagram.com/vismac.21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vismac.21" height="30" width="40" /></a>
-</p>
+  .header-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--accent2);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-tag::before {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent2);
+    box-shadow: 0 0 8px var(--accent2);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+  .header-name {
+    font-size: clamp(36px, 6vw, 58px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, #e8eaf0 30%, #7c6ef2 70%, #4ecdc4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 14px;
+  }
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalmache&show_icons=true&locale=en&layout=compact" alt="vishalmache" /></p>
+  .header-subtitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.7;
+    max-width: 480px;
+  }
+  .header-subtitle span {
+    color: var(--accent3);
+  }
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vishalmache&" alt="vishalmache" /></p>
+  .header-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    padding: 9px 20px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .btn-primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .btn-primary:hover { background: #9084f5; border-color: #9084f5; transform: translateY(-1px); }
+  .btn-ghost {
+    background: transparent;
+    border-color: var(--border);
+    color: var(--muted);
+  }
+  .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+
+  /* ── STATUS STRIP ── */
+  .status-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .stat-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    border-radius: 0 0 14px 14px;
+  }
+  .stat-card.c1::after { background: var(--accent); }
+  .stat-card.c2::after { background: var(--accent2); }
+  .stat-card.c3::after { background: var(--accent3); }
+  .stat-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .stat-value {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1;
+  }
+  .stat-sub {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-bottom: 20px;
+    transition: border-color 0.2s;
+  }
+  .section:hover { border-color: rgba(124,110,242,0.3); }
+
+  .section-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .section-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+  .section-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* ── SKILLS GRID ── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 10px;
+  }
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all 0.2s;
+    cursor: default;
+  }
+  .skill-item:hover {
+    border-color: var(--accent);
+    background: rgba(124,110,242,0.08);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(124,110,242,0.15);
+  }
+  .skill-icon { font-size: 22px; line-height: 1; }
+  .skill-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  /* ── CURRENTLY ── */
+  .currently-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .current-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 18px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all 0.2s;
+  }
+  .current-item:hover { border-color: var(--accent2); }
+  .current-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px;
+    flex-shrink: 0;
+  }
+  .ci-purple { background: rgba(124,110,242,0.15); }
+  .ci-teal { background: rgba(78,205,196,0.15); }
+  .ci-amber { background: rgba(247,197,159,0.15); }
+  .ci-pink { background: rgba(255,100,130,0.15); }
+  .current-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .current-value {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  /* ── CONNECT ── */
+  .connect-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .social-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .social-chip:hover {
+    border-color: var(--accent);
+    color: var(--text);
+    background: rgba(124,110,242,0.1);
+    transform: translateY(-2px);
+  }
+
+  /* ── GITHUB STATS ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .stats-embed {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--surface2);
+    padding: 4px;
+  }
+  .stats-embed img { width: 100%; display: block; border-radius: 9px; }
+
+  /* ── FOOTER ── */
+  .footer {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .footer-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--border);
+    letter-spacing: 0.1em;
+  }
+
+  /* ── TYPING ANIMATION ── */
+  .typing {
+    display: inline;
+    border-right: 2px solid var(--accent2);
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink { 50% { border-color: transparent; } }
+
+  /* ── PROFILE VIEWS BADGE ── */
+  .badge-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+  .badge-purple { background: rgba(124,110,242,0.15); color: #a79df5; border: 1px solid rgba(124,110,242,0.3); }
+  .badge-teal   { background: rgba(78,205,196,0.12); color: #5fd6ce; border: 1px solid rgba(78,205,196,0.25); }
+  .badge-amber  { background: rgba(247,197,159,0.12); color: #f7c59f; border: 1px solid rgba(247,197,159,0.25); }
+  .badge-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+
+  @media (max-width: 560px) {
+    .status-strip { grid-template-columns: 1fr 1fr; }
+    .currently-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .header { padding: 36px 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+  <!-- BADGE ROW -->
+  <div class="badge-row">
+    <span class="badge badge-purple"><span class="badge-dot"></span>Available for collabs</span>
+    <span class="badge badge-teal"><span class="badge-dot"></span>Open to opportunities</span>
+    <span class="badge badge-amber"><span class="badge-dot"></span>Based in India</span>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-tag">Full-stack developer in progress</div>
+    <h1 class="header-name">Vishal Mache</h1>
+    <p class="header-subtitle">
+      Passionate <span>frontend developer</span> leveling up to full-stack.<br>
+      Building things with React, Flutter &amp; Firebase.<br>
+      Currently exploring <span>Python</span> &amp; <span>Dart</span>.
+    </p>
+    <div class="header-actions">
+      <a href="mailto:vismac9@gmail.com" class="btn btn-primary">✉ vismac9@gmail.com</a>
+      <a href="https://github.com/VishalMache/Screenique" class="btn btn-ghost">⬡ View Screenique</a>
+    </div>
+  </div>
+
+  <!-- STAT CARDS -->
+  <div class="status-strip">
+    <div class="stat-card c1">
+      <div class="stat-label">Currently Building</div>
+      <div class="stat-value">Screenique</div>
+      <div class="stat-sub">Active project</div>
+    </div>
+    <div class="stat-card c2">
+      <div class="stat-label">Learning Now</div>
+      <div class="stat-value">Python + Dart</div>
+      <div class="stat-sub">In progress</div>
+    </div>
+    <div class="stat-card c3">
+      <div class="stat-label">Goal</div>
+      <div class="stat-value">Full-Stack</div>
+      <div class="stat-sub">Frontend → Fullstack</div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-dot"></div>
+      <div class="section-title">Tech Stack</div>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item"><div class="skill-icon">⚛️</div><div class="skill-name">React</div></div>
+      <div class="skill-item"><div class="skill-icon">🎨</div><div class="skill-name">Tailwind</div></div>
+      <div class="skill-item"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div></div>
+      <div class="skill-item"><div class="skill-icon">💅</div><div class="skill-name">CSS3</div></div>
+      <div class="skill-item"><div class="skill-icon">📜</div><div class="skill-name">JavaScript</div></div>
+      <div class="skill-item"><div class="skill-icon">🐦</div><div class="skill-name">Flutter</div></div>
+      <div class="skill-item"><div class="skill-icon">🎯</div><div class="skill-name">Dart</div></div>
+      <div class="skill-item"><div class="skill-icon">🔥</div><div class="skill-name">Firebase</div></div>
+      <div class="skill-item"><div class="skill-icon">🐍</div><div class="skill-name">Python</div></div>
+      <div class="skill-item"><div class="skill-icon">🤖</div><div class="skill-name">Android</div></div>
+      <div class="skill-item"><div class="skill-icon">🌿</div><div class="skill-name">Git</div></div>
+      <div class="skill-item"><div class="skill-icon">🎭</div><div class="skill-name">Figma</div></div>
+    </div>
+  </div>
+
+  <!-- CURRENTLY -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-dot"></div>
+      <div class="section-title">Right Now</div>
+      <div class="section-line"></div>
+    </div>
+    <div class="currently-grid">
+      <div class="current-item">
+        <div class="current-icon ci-purple">🔭</div>
+        <div>
+          <div class="current-label">Working on</div>
+          <div class="current-value">Screenique</div>
+        </div>
+      </div>
+      <div class="current-item">
+        <div class="current-icon ci-teal">🌱</div>
+        <div>
+          <div class="current-label">Learning</div>
+          <div class="current-value">Python &amp; Dart</div>
+        </div>
+      </div>
+      <div class="current-item">
+        <div class="current-icon ci-amber">🎯</div>
+        <div>
+          <div class="current-label">Goal</div>
+          <div class="current-value">Become Full-Stack Dev</div>
+        </div>
+      </div>
+      <div class="current-item">
+        <div class="current-icon ci-pink">📫</div>
+        <div>
+          <div class="current-label">Reach me at</div>
+          <div class="current-value">vismac9@gmail.com</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GITHUB STATS -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-dot"></div>
+      <div class="section-title">GitHub Stats</div>
+      <div class="section-line"></div>
+    </div>
+    <div class="stats-grid">
+      <div class="stats-embed">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalmache&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1e2a" alt="Top Languages" onerror="this.style.display='none'">
+      </div>
+      <div class="stats-embed">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishalmache&theme=tokyonight&hide_border=true&background=1a1e2a" alt="GitHub Streak" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+
+  <!-- CONNECT -->
+  <div class="section">
+    <div class="section-head">
+      <div class="section-dot"></div>
+      <div class="section-title">Connect</div>
+      <div class="section-line"></div>
+    </div>
+    <div class="connect-row">
+      <a href="https://twitter.com/machevishal24114" class="social-chip">𝕏 @machevishal24114</a>
+      <a href="https://instagram.com/vismac.21" class="social-chip">◈ @vismac.21</a>
+      <a href="mailto:vismac9@gmail.com" class="social-chip">✉ vismac9@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-text">// crafted with ♥ by vishal mache</div>
+  </div>
+
+</div>
+</body>
+</html>
