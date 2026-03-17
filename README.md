@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vishal Mache — GitHub Profile</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -18,8 +18,6 @@
     --accent3: #f7c59f;
     --text: #e8eaf0;
     --muted: #7a8099;
-    --glow: rgba(124, 110, 242, 0.18);
-    --glow2: rgba(78, 205, 196, 0.12);
   }
 
   body {
@@ -27,11 +25,9 @@
     color: var(--text);
     font-family: 'Syne', sans-serif;
     min-height: 100vh;
-    padding: 0;
     overflow-x: hidden;
   }
 
-  /* Grid background */
   body::before {
     content: '';
     position: fixed;
@@ -52,7 +48,29 @@
     z-index: 1;
   }
 
-  /* ── HEADER ── */
+  /* BADGE ROW */
+  .badge-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+  .badge-purple { background: rgba(124,110,242,0.15); color: #a79df5; border: 1px solid rgba(124,110,242,0.3); }
+  .badge-teal   { background: rgba(78,205,196,0.12);  color: #5fd6ce; border: 1px solid rgba(78,205,196,0.25); }
+  .badge-amber  { background: rgba(247,197,159,0.12); color: #f7c59f; border: 1px solid rgba(247,197,159,0.25); }
+  .badge-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
+
+  /* HEADER */
   .header {
     position: relative;
     padding: 56px 48px;
@@ -62,7 +80,6 @@
     overflow: hidden;
     margin-bottom: 20px;
   }
-
   .header::before {
     content: '';
     position: absolute;
@@ -81,7 +98,6 @@
     background: radial-gradient(circle, rgba(78,205,196,0.12) 0%, transparent 70%);
     pointer-events: none;
   }
-
   .header-tag {
     font-family: 'Space Mono', monospace;
     font-size: 11px;
@@ -104,9 +120,8 @@
   }
   @keyframes pulse {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.4; }
+    50% { opacity: 0.3; }
   }
-
   .header-name {
     font-size: clamp(36px, 6vw, 58px);
     font-weight: 800;
@@ -118,18 +133,14 @@
     background-clip: text;
     margin-bottom: 14px;
   }
-
   .header-subtitle {
     font-family: 'Space Mono', monospace;
     font-size: 13px;
     color: var(--muted);
-    line-height: 1.7;
+    line-height: 1.9;
     max-width: 480px;
   }
-  .header-subtitle span {
-    color: var(--accent3);
-  }
-
+  .header-subtitle span { color: var(--accent3); }
   .header-actions {
     display: flex;
     gap: 12px;
@@ -140,7 +151,7 @@
     font-family: 'Space Mono', monospace;
     font-size: 11px;
     letter-spacing: 0.08em;
-    padding: 9px 20px;
+    padding: 10px 20px;
     border-radius: 8px;
     border: 1px solid;
     cursor: pointer;
@@ -150,20 +161,12 @@
     align-items: center;
     gap: 6px;
   }
-  .btn-primary {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
-  }
+  .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
   .btn-primary:hover { background: #9084f5; border-color: #9084f5; transform: translateY(-1px); }
-  .btn-ghost {
-    background: transparent;
-    border-color: var(--border);
-    color: var(--muted);
-  }
+  .btn-ghost { background: transparent; border-color: var(--border); color: var(--muted); }
   .btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
 
-  /* ── STATUS STRIP ── */
+  /* STATUS STRIP */
   .status-strip {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -198,20 +201,10 @@
     text-transform: uppercase;
     margin-bottom: 8px;
   }
-  .stat-value {
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--text);
-    line-height: 1;
-  }
-  .stat-sub {
-    font-family: 'Space Mono', monospace;
-    font-size: 10px;
-    color: var(--muted);
-    margin-top: 4px;
-  }
+  .stat-value { font-size: 20px; font-weight: 800; color: var(--text); line-height: 1; }
+  .stat-sub { font-family: 'Space Mono', monospace; font-size: 10px; color: var(--muted); margin-top: 4px; }
 
-  /* ── SECTION ── */
+  /* SECTION */
   .section {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -221,35 +214,27 @@
     transition: border-color 0.2s;
   }
   .section:hover { border-color: rgba(124,110,242,0.3); }
-
   .section-head {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 24px;
   }
+  .section-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
   .section-title {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--muted);
+    font-family: 'Space Mono', monospace;
   }
-  .section-line {
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
-  .section-dot {
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: var(--accent);
-  }
+  .section-line { flex: 1; height: 1px; background: var(--border); }
 
-  /* ── SKILLS GRID ── */
+  /* SKILLS */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
     gap: 10px;
   }
   .skill-item {
@@ -279,7 +264,7 @@
     text-align: center;
   }
 
-  /* ── CURRENTLY ── */
+  /* CURRENTLY */
   .currently-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -297,16 +282,16 @@
   }
   .current-item:hover { border-color: var(--accent2); }
   .current-icon {
-    width: 32px; height: 32px;
+    width: 34px; height: 34px;
     border-radius: 8px;
     display: flex; align-items: center; justify-content: center;
-    font-size: 15px;
+    font-size: 16px;
     flex-shrink: 0;
   }
   .ci-purple { background: rgba(124,110,242,0.15); }
-  .ci-teal { background: rgba(78,205,196,0.15); }
-  .ci-amber { background: rgba(247,197,159,0.15); }
-  .ci-pink { background: rgba(255,100,130,0.15); }
+  .ci-teal   { background: rgba(78,205,196,0.15); }
+  .ci-amber  { background: rgba(247,197,159,0.15); }
+  .ci-pink   { background: rgba(255,100,130,0.15); }
   .current-label {
     font-family: 'Space Mono', monospace;
     font-size: 9px;
@@ -315,19 +300,10 @@
     text-transform: uppercase;
     margin-bottom: 4px;
   }
-  .current-value {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text);
-    line-height: 1.3;
-  }
+  .current-value { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.3; }
 
-  /* ── CONNECT ── */
-  .connect-row {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-  }
+  /* CONNECT */
+  .connect-row { display: flex; gap: 12px; flex-wrap: wrap; }
   .social-chip {
     display: inline-flex;
     align-items: center;
@@ -349,12 +325,8 @@
     transform: translateY(-2px);
   }
 
-  /* ── GITHUB STATS ── */
-  .stats-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
+  /* GITHUB STATS */
+  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .stats-embed {
     border: 1px solid var(--border);
     border-radius: 12px;
@@ -364,60 +336,28 @@
   }
   .stats-embed img { width: 100%; display: block; border-radius: 9px; }
 
-  /* ── FOOTER ── */
-  .footer {
-    text-align: center;
-    padding-top: 20px;
-  }
+  /* FOOTER */
+  .footer { text-align: center; padding-top: 20px; }
   .footer-text {
     font-family: 'Space Mono', monospace;
     font-size: 10px;
     color: var(--border);
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
   }
 
-  /* ── TYPING ANIMATION ── */
-  .typing {
-    display: inline;
-    border-right: 2px solid var(--accent2);
-    animation: blink 1s step-end infinite;
-  }
-  @keyframes blink { 50% { border-color: transparent; } }
-
-  /* ── PROFILE VIEWS BADGE ── */
-  .badge-row {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-  }
-  .badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 5px 12px;
-    border-radius: 50px;
-    font-family: 'Space Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.06em;
-  }
-  .badge-purple { background: rgba(124,110,242,0.15); color: #a79df5; border: 1px solid rgba(124,110,242,0.3); }
-  .badge-teal   { background: rgba(78,205,196,0.12); color: #5fd6ce; border: 1px solid rgba(78,205,196,0.25); }
-  .badge-amber  { background: rgba(247,197,159,0.12); color: #f7c59f; border: 1px solid rgba(247,197,159,0.25); }
-  .badge-dot { width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
-
+  /* RESPONSIVE */
   @media (max-width: 560px) {
-    .status-strip { grid-template-columns: 1fr 1fr; }
-    .currently-grid { grid-template-columns: 1fr; }
-    .stats-grid { grid-template-columns: 1fr; }
-    .header { padding: 36px 28px; }
+    .status-strip     { grid-template-columns: 1fr 1fr; }
+    .currently-grid   { grid-template-columns: 1fr; }
+    .stats-grid       { grid-template-columns: 1fr; }
+    .header           { padding: 36px 28px; }
   }
 </style>
 </head>
 <body>
 <div class="wrapper">
 
-  <!-- BADGE ROW -->
+  <!-- BADGES -->
   <div class="badge-row">
     <span class="badge badge-purple"><span class="badge-dot"></span>Available for collabs</span>
     <span class="badge badge-teal"><span class="badge-dot"></span>Open to opportunities</span>
@@ -529,10 +469,10 @@
     </div>
     <div class="stats-grid">
       <div class="stats-embed">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalmache&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1e2a" alt="Top Languages" onerror="this.style.display='none'">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vishalmache&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1e2a" alt="Top Languages">
       </div>
       <div class="stats-embed">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishalmache&theme=tokyonight&hide_border=true&background=1a1e2a" alt="GitHub Streak" onerror="this.style.display='none'">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=vishalmache&theme=tokyonight&hide_border=true&background=1a1e2a" alt="GitHub Streak">
       </div>
     </div>
   </div>
