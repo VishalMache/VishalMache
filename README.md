@@ -1,10 +1,6 @@
 # Hi 👋, I'm Vishal Mache
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=VishalMache&label=Profile views&color=0e75b6&style=flat" alt="VishalMache" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=VishalMache" alt="VishalMache" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/https://x.com/MacheVisha24114" target="blank"><img src="https://img.shields.io/twitter/follow/https://x.com/MacheVisha24114?logo=twitter&style=for-the-badge" alt="https://x.com/MacheVisha24114" /></a> </p>
 
 - 🔭 I'm currently working on **SyncMe**
 
