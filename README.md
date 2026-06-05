@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on SyncMe<br>🌱 I’m currently learning Machine Learning<br>
+🔭 I’m currently working on Screenique <br>🌱 I’m currently learning AI Automation<br>
 
 
 ## 🌐 Socials:
