@@ -7,7 +7,7 @@
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vishal-mache-10ba4632b/)
-[![Profile Views](https://komarev.com/ghpvc/?username=VishalMache&style=for-the-badge)](https://github.com/VishalMache)
+
 
 </div>
 
@@ -235,16 +235,6 @@ Future ─ ??? 🌎
 
 </div>
 
----
-
-# 🎯 2026 Goals
-
-- [ ] Launch Screenique publicly
-- [ ] Build production AI agents
-- [ ] Learn advanced system design
-- [ ] Contribute to open source
-- [ ] Reach first 1,000 users
-- [ ] Master AI Automation
 
 ---
 
