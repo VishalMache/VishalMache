@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hey, I'm Vishal Mache
+#  Hey, I'm Vishal Mache
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=4F8EF7&center=true&vCenter=true&width=800&lines=Building+Screenique;Full-Stack+Developer;AI+Automation+Enthusiast;Creating+Products+That+Matter;Learning+Something+New+Every+Day" alt="Typing SVG" />
 
@@ -35,7 +35,7 @@ Mission:
 
 ---
 
-# ⚡ Current Mission
+#  Current Mission
 
 <table>
 <tr>
@@ -56,7 +56,7 @@ Building an AI-powered platform focused on visual content experiences.
 
 <td width="50%">
 
-## 🤖 AI Automation
+##  AI Automation
 
 Currently learning:
 
@@ -73,7 +73,7 @@ Currently learning:
 
 ---
 
-# 🛠 Tech Arsenal
+#  Tech Arsenal
 
 ## Frontend
 
@@ -111,7 +111,7 @@ Currently learning:
 
 ---
 
-# 📊 GitHub Analytics
+#  GitHub Analytics
 
 <div align="center">
 
@@ -131,7 +131,7 @@ Currently learning:
 
 ---
 
-# ⚡ Tech Power Levels
+#  Tech Power Levels
 
 ```text
 Frontend       ████████████ 95%
@@ -169,7 +169,7 @@ Create intelligent visual experiences.
 
 <td width="50%">
 
-## 🤖 AI Automation Lab
+##  AI Automation Lab
 
 Experiments with:
 
@@ -183,7 +183,7 @@ Experiments with:
 
 ---
 
-# 💻 Terminal
+#  Terminal
 
 ```bash
 > whoami
