@@ -1,111 +1,42 @@
-<div align="center">
+&lt;div align="center"&gt;
 
-# Hey, I'm Vishal Mache 👋
+&lt;!-- Waving Header --&gt;
+&lt;img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:4f8ef7&height=200&section=header&text=Vishal%20Mache&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20•%20Flutter%20•%20AI%20Automation&descAlignY=58&descSize=18&animation=fadeIn" /&gt;
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Building+Screenique;Full-Stack+Developer;AI+Automation+Enthusiast;Creating+Products+That+Matter" />
+&lt;img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=Building+Screenique+🎬;Full-Stack+Developer+💻;AI+Automation+Enthusiast+🤖;Creating+Products+That+Matter+🚀" /&gt;
 
-### Full-Stack Developer • Flutter • React • AI Automation
+&lt;img src="https://komarev.com/ghpvc/?username=VishalMache&color=4F8EF7&style=for-the-badge&label=PROFILE+VIEWS" /&gt;
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vishal-mache-10ba4632b/)
+&lt;br&gt;
 
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vishal-mache-10ba4632b/)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-4F8EF7?style=for-the-badge&logo=googlechrome&logoColor=white)](#)
+
+&lt;/div&gt;
 
 ---
 
-## 🚀 About Me
+## 🧬 About Me
+
+&lt;img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" /&gt;
 
 ```yaml
-Name: Vishal Mache
+Name: Vishal Mache 🧑‍💻
 Role: Full-Stack Developer
 Location: India 🇮🇳
 
 Currently Building:
-  - 🎬 Screenique
+  - 🎬 Screenique — AI-powered entertainment
   - 🤖 AI Automation Projects
 
 Learning:
-  - AI Agents
-  - MCP
-  - RAG Systems
-  - Workflow Automation
+  - AI Agents 🤖
+  - MCP 🔌
+  - RAG Systems 📚
+  - Workflow Automation ⚙️
 
-Mission:
-  Build AI-powered products that solve real problems.
-```
-
----
-
-## 💻 Tech Stack
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![NextJS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-
-**Backend & Database**
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
-
----
-
-## 🌟 Featured Projects
-
-### 🎬 Screenique
-AI-powered platform focused on visual entertainment experiences.
-
-**Tech:** Flutter • Firebase • AI APIs
-
----
-
-### 🤖 AI Automation Lab
-Exploring AI Agents, MCP, RAG, and workflow automation.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=VishalMache&show_icons=true&theme=tokyonight&count_private=true"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalMache&layout=compact&theme=tokyonight"/>
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=VishalMache&theme=tokyonight"/>
-
-</div>
-
----
-
-## 💻 Terminal
-
-```bash
-> whoami
-Vishal Mache
-
-> current_project
-Screenique
-
-> learning
-AI Agents
-RAG
-Automation
-
-> goal
-Build products used by millions 🚀
-```
-
----
-
-<div align="center">
-
-### Thanks for visiting!
-
-⭐ If you like my work, consider starring a repository.
-
-</div>
+Mission: |
+  Build AI-powered products
+  that solve real problems.
+Fun Fact: ☕ Powered by chai + curiosity
