@@ -1,84 +1,169 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:4F8EF7&height=220&section=header&text=Vishal%20Mache&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20Automation%20Builder&descAlignY=58&descSize=18" width="100%"/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         HERO SECTION                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=4F8EF7&center=true&vCenter=true&width=700&lines=%F0%9F%8E%AC+Building+Screenique;%F0%9F%A4%96+Exploring+AI+Agents+%26+MCP;%E2%9A%A1+Flutter+%E2%80%A2+React+%E2%80%A2+Next.js;%F0%9F%9A%80+Creating+Products+That+Matter" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:080B16,50:111B35,100:2563EB&height=5" width="100%"/>
 
-<a href="https://www.linkedin.com/in/vishal-mache-10ba4632b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=VishalMache&style=for-the-badge&color=4F8EF7&label=PROFILE+VIEWS"/>
-<img src="https://img.shields.io/badge/Based%20in-India%20🇮🇳-FF9933?style=for-the-badge"/>
+<br/>
+
+# VISHAL MACHE
+
+### Full-Stack Developer · AI Automation Builder
+
+**Building digital products. Exploring intelligent systems. Turning ideas into reality.**
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=900&color=60A5FA&center=true&vCenter=true&width=650&lines=Building+%40+Screenique+%F0%9F%8E%AC;Exploring+AI+Agents+%26+MCP+%F0%9F%A4%96;Developing+with+Flutter+%26+React+%E2%9A%A1;Automating+the+future+%F0%9F%9A%80" />
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/vishal-mache-10ba4632b/">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=VishalMache&style=for-the-badge&color=2563EB&label=PROFILE+VIEWS"/>
+&nbsp;
+<img src="https://img.shields.io/badge/LOCATION-INDIA-FF9933?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,50:111B35,100:080B16&height=2" width="100%"/>
 
 </div>
 
----
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         ABOUT ME                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me
+<br/>
+
+## `01` — About Me
 
 <table>
 <tr>
-<td width="55%">
+<td width="60%" valign="top">
 
-```js
+I'm a developer passionate about building products that solve real-world problems.
+
+My interests lie at the intersection of **full-stack development, artificial intelligence, and automation.**
+
+Currently focused on:
+
+- 🎬 Building **Screenique**
+- 🤖 Exploring AI Agents and MCP
+- ⚡ Developing modern web and mobile applications
+- 🧠 Experimenting with RAG and intelligent workflows
+- 🚀 Turning ideas into useful digital products
+
+</td>
+<td width="40%" valign="middle">
+
+```javascript
 const vishal = {
-  role:        "Full-Stack Developer",
-  location:    "India 🇮🇳",
-  building:    ["🎬 Screenique", "🤖 AI Automation Projects"],
-  learning:    ["AI Agents", "MCP", "RAG Systems", "Workflow Automation"],
-  mission:     "Build AI-powered products that solve real problems.",
-  funFact:     "I debug faster with chai ☕",
+  name: "Vishal Mache",
+  role: "Full-Stack Developer",
+  based: "India 🇮🇳",
+
+  building: [
+    "Screenique",
+    "AI Projects"
+  ],
+
+  exploring: [
+    "AI Agents",
+    "MCP",
+    "RAG",
+    "Automation"
+  ],
+
+  mindset: "Build. Experiment. Improve."
 };
 ```
 
 </td>
-<td width="45%" align="center">
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</td>
 </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Arsenal
+## `02` — Tech Stack
 
 <div align="center">
 
-| 🎨 Frontend | ⚙️ Backend | 🗄️ Database | 🤖 AI / Automation |
-|:---:|:---:|:---:|:---:|
-| <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,tailwind" /> | <img src="https://skillicons.dev/icons?i=flask,python,nodejs" /> | <img src="https://skillicons.dev/icons?i=firebase,postgres" /> | ![](https://img.shields.io/badge/AI_Agents-412991?style=flat-square&logo=openai&logoColor=white) ![](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white) ![](https://img.shields.io/badge/RAG-FF6F00?style=flat-square&logo=databricks&logoColor=white) |
+### FRONTEND & MOBILE
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,flutter,tailwind,html,css,javascript&theme=dark" />
+
+<br/><br/>
+
+### BACKEND & DATABASE
+
+<img src="https://skillicons.dev/icons?i=python,nodejs,flask,firebase,postgres&theme=dark" />
+
+<br/><br/>
+
+### TOOLS & ENVIRONMENT
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman&theme=dark" />
+
+<br/><br/>
+
+### AI & AUTOMATION
+
+<img src="https://img.shields.io/badge/AI%20Agents-111827?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/RAG%20Systems-111827?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Workflow%20Automation-111827?style=for-the-badge&logo=n8n&logoColor=EA4B71"/>
 
 </div>
 
 ---
 
-## 🌟 Featured Projects
+## `03` — Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
+<div align="center">
+
 ### 🎬 Screenique
-> *AI-powered platform for visual entertainment experiences.*
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![AI](https://img.shields.io/badge/AI_APIs-8A2BE2?style=flat-square&logo=openai)
+<img src="https://img.shields.io/badge/PRODUCT-IN%20DEVELOPMENT-2563EB?style=flat-square"/>
 
-`🟢 Actively building`
+</div>
+
+An AI-powered platform focused on creating a smarter visual entertainment discovery experience.
+
+**Technology**
+
+<img src="https://skillicons.dev/icons?i=flutter,firebase&theme=dark"/>
+
+<img src="https://img.shields.io/badge/AI%20Integration-8B5CF6?style=flat-square"/>
 
 </td>
 <td width="50%" valign="top">
 
+<div align="center">
+
 ### 🤖 AI Automation Lab
-> *Experiments with AI Agents, MCP, RAG and workflow automation.*
 
-![Agents](https://img.shields.io/badge/Agents-412991?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square)
+<img src="https://img.shields.io/badge/EXPERIMENTAL-8B5CF6?style=flat-square"/>
 
-`🧪 Always experimenting`
+</div>
+
+A collection of experiments and projects exploring intelligent automation and next-generation AI workflows.
+
+**Exploring**
+
+<img src="https://img.shields.io/badge/AI%20Agents-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/MCP-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/RAG-111827?style=flat-square"/>
+<img src="https://img.shields.io/badge/Automation-111827?style=flat-square"/>
 
 </td>
 </tr>
@@ -86,47 +171,71 @@ const vishal = {
 
 ---
 
-## 📊 GitHub Pulse
+## `04` — GitHub Analytics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=VishalMache&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalMache&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=VishalMache&show_icons=true&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=60A5FA&text_color=C9D1D9&rank_icon=github"/>
 
-<img src="https://streak-stats.demolab.com?user=VishalMache&theme=tokyonight&hide_border=true&background=0d1117"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalMache&layout=compact&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=C9D1D9"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VishalMache&theme=tokyo-night&hide_border=true&bg_color=0d1117" width="95%"/>
+<br/><br/>
+
+<img width="75%" src="https://streak-stats.demolab.com?user=VishalMache&hide_border=true&background=0D1117&ring=60A5FA&fire=60A5FA&currStreakLabel=60A5FA&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF"/>
+
+<br/><br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=VishalMache&bg_color=0D1117&color=60A5FA&line=2563EB&point=FFFFFF&area=true&hide_border=true"/>
 
 </div>
 
 ---
 
-## 💻 `~/vishal $` Terminal
+## `05` — Developer Console
 
-```console
-vishal@dev:~$ whoami
-Vishal Mache — Full-Stack Developer
-
-vishal@dev:~$ cat current_project.txt
-🎬 Screenique
-
-vishal@dev:~$ ls ./learning
-ai-agents/   rag/   automation/   mcp/
-
-vishal@dev:~$ echo $GOAL
-Build products used by millions 🚀
-
-vishal@dev:~$ █
+```bash
+┌──[ vishal@developer ]─────────────────────┐
+│                                           │
+│  $ whoami                                 │
+│  Vishal Mache                             │
+│                                           │
+│  $ cat current_focus.txt                  │
+│  Screenique                               │
+│  AI Agents & Automation                   │
+│                                           │
+│  $ ls interests/                          │
+│  full-stack/  artificial-intelligence/    │
+│  automation/  product-building/           │
+│                                           │
+│  $ echo $PHILOSOPHY                       │
+│  Build things that matter.                │
+│                                           │
+│  $ _                                      │
+└───────────────────────────────────────────┘
 ```
 
 ---
 
 <div align="center">
 
-### 💫 Thanks for visiting!
+## Let's Build Something Interesting.
 
-⭐ *If you like my work, consider starring a repository — it keeps me shipping.*
+I'm always open to connecting with developers, creators, and people building exciting things.
+
+<br/>
+
+<a href="https://www.linkedin.com/in/vishal-mache-10ba4632b/">
+<img src="https://img.shields.io/badge/LET'S%20CONNECT-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+**Thanks for stopping by!** 👋
+
+<sub>Designed with curiosity. Built with code. Powered by chai. ☕</sub>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080B16,50:111B35,100:2563EB&height=110&section=footer" width="100%"/>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F8EF7,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
