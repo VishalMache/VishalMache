@@ -44,16 +44,12 @@ I build mobile and web apps end to end, and I like working on AI systems that do
 ## 📊 GitHub
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=VishalMache&show_icons=true&hide_border=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalMache&layout=compact&hide_border=true" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats-fast.vercel.app/api?username=VishalMache&show_icons=true&hide_border=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=VishalMache&layout=compact&hide_border=true" alt="Top languages" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=VishalMache&hide_border=true&ring=D32F2F&fire=F5A623&currStreakLabel=D32F2F" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=VishalMache&hide_border=true&color=D32F2F&line=D32F2F&point=111111&area=true&bg_color=00000000" alt="Contribution activity" />
 </p>
 
 ## 📫 Get in touch
