@@ -29,7 +29,7 @@
   <text x="72" y="84" class="k">NOW SHOWING · MY MAIN PROJECT</text>
   <text x="68" y="158" class="t">SCREENIQUE</text>
   <text x="72" y="190" class="s">Good movies. Better people.</text>
-  <text x="510" y="188" class="d">Track films · AI movie guide · daily games · community</text>
+  
   <g class="ticket">
     <rect x="930" y="62" width="170" height="106" rx="6" fill="#f5a623" stroke="#0c0b0b" stroke-width="3"/>
     <line x1="958" y1="62" x2="958" y2="168" stroke="#0c0b0b" stroke-width="2" stroke-dasharray="5 5"/>
