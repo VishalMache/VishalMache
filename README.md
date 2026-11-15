@@ -32,7 +32,7 @@ I'm **Vishal**, a mobile and full-stack developer from India. I build apps end t
 | [**Idea Hunter**](https://github.com/VishalMache/Idea_hunter) | Evidence-first research engine that finds and scores real product opportunities | Python |
 | [**CTMS**](https://github.com/VishalMache/CTMS) | Campus training and placement management platform | React, Node.js, Prisma |
 | [**SyncMe**](https://github.com/VishalMache/SyncMe) | Real-time location sharing and group coordination app | Flutter |
-| [**Cyphex CLI**](https://github.com/vedant91/Cyphex_CLI) | AI security scanner for the command line. Team project with Vedant | Python |
+| [**Cyphex CLI**](https://github.com/vedant91/Cyphex_CLI) | AI security scanner for the command line | Python |
 | [**Innovare IEEE**](https://github.com/VishalMache/innovare-ieee) | Website for the Innovare IEEE chapter: projects, timeline, team and join page | Next.js, Supabase |
 
 ## 🛠️ Tech
