@@ -1,31 +1,29 @@
 <div align="center">
 
-# Hi, I'm Vishal Mache 👋
+<img src="assets/banner.svg" width="100%" alt="Vishal Mache: mobile and full-stack developer, building Screenique" />
 
-**Mobile & full-stack developer from India, building AI-powered products.**
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3000&pause=900&color=D32F2F&center=true&vCenter=true&width=520&lines=Building+Screenique;Flutter+%C2%B7+React+%C2%B7+Firebase;Exploring+AI+agents+and+automation" alt="Typing animation" />
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal-mache-10ba4632b/)
-[![Screenique](https://img.shields.io/badge/Screenique-D32F2F?style=flat-square&logoColor=white)](https://screenique.in)
-[![GitHub followers](https://img.shields.io/github/followers/VishalMache?style=flat-square&logo=github&label=Followers)](https://github.com/VishalMache)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal-mache-10ba4632b/)
+[![Screenique](https://img.shields.io/badge/Screenique.in-D32F2F?style=for-the-badge&logoColor=white)](https://screenique.in)
+[![Followers](https://img.shields.io/github/followers/VishalMache?style=for-the-badge&logo=github&label=Followers&labelColor=111111&color=333333)](https://github.com/VishalMache)
 
 </div>
 
----
-
 ## 👨‍💻 About
 
-I build mobile and web apps end to end, and I like working on AI systems that do something useful. Right now most of my time goes into **Screenique**.
+I'm **Vishal**, a mobile and full-stack developer from India. I build apps end to end and like working on AI systems that do something useful. Right now most of my time goes into **Screenique**.
 
 ## 🎬 Currently building
 
-**[Screenique](https://screenique.in)** is a movie and series tracker with an AI movie guide, daily film games and a community of cinephiles. Flutter mobile app, React web app, one Firebase backend.
+<a href="https://screenique.in"><img src="assets/screenique.svg" width="100%" alt="Now showing: Screenique. Good movies, better people. screenique.in" /></a>
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
 
 ## 🚀 Projects
 
@@ -39,21 +37,21 @@ I build mobile and web apps end to end, and I like working on AI systems that do
 
 ## 🛠️ Tech
 
-<img src="https://skillicons.dev/icons?i=flutter,dart,react,nextjs,ts,python,nodejs,firebase,postgres,git&theme=light" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=flutter,dart,react,nextjs,ts,python,nodejs,firebase,postgres,git&theme=dark" alt="Flutter, Dart, React, Next.js, TypeScript, Python, Node.js, Firebase, PostgreSQL, Git" />
 
 ## 📊 GitHub
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats-fast.vercel.app/api?username=VishalMache&show_icons=true&hide_border=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=VishalMache&layout=compact&hide_border=true" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=VishalMache&hide_border=true&ring=D32F2F&fire=F5A623&currStreakLabel=D32F2F" alt="GitHub streak" />
-</p>
+<div align="center">
+  <img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=VishalMache&show_icons=true&hide_border=true&include_all_commits=true&bg_color=0c0b0b&title_color=ff6b6b&text_color=e9e2d4&icon_color=f5a623&border_radius=14" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=VishalMache&layout=compact&hide_border=true&bg_color=0c0b0b&title_color=ff6b6b&text_color=e9e2d4&border_radius=14" alt="Top languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=VishalMache&hide_border=true&border_radius=14&background=0c0b0b&ring=D32F2F&fire=F5A623&currStreakNum=F5F2EA&sideNums=F5F2EA&currStreakLabel=FF6B6B&sideLabels=BDB6A8&dates=8A8780&stroke=2C2526" alt="GitHub streak" />
+</div>
 
 ## 📫 Get in touch
 
 Got an idea or want to build something together? Reach me on [LinkedIn](https://www.linkedin.com/in/vishal-mache-10ba4632b/).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:D32F2F,100:111111" width="100%" alt="" />
+<br/>
+
+<img src="assets/footer.svg" width="100%" alt="The end. Thanks for stopping by." />
