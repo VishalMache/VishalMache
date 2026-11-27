@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Terminal: Vishal Mache, mobile and full-stack developer, building Screenique">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c1"><rect class="t t1" x="60" y="140" height="34"/></clipPath>
+    <clipPath id="c2"><rect class="t t2" x="60" y="180" height="34"/></clipPath>
+    <clipPath id="c3"><rect class="t t3" x="60" y="230" height="34"/></clipPath>
+    <clipPath id="c4"><rect class="t t4" x="60" y="270" height="34"/></clipPath>
+    <clipPath id="c5"><rect class="t t5" x="60" y="320" height="34"/></clipPath>
+    <clipPath id="c6"><rect class="t t6" x="60" y="360" height="34"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .p { fill: #4ade80; } .cmd { fill: #e5e7eb; } .out { fill: #94a3b8; } .hl { fill: #22d3ee; } .mg { fill: #e879f9; }
+      .t { width: 0; animation: type 1s steps(40, end) forwards; }
+      .t1 { animation-delay: .3s; }  .t2 { animation-delay: 1.2s; animation-duration: .4s; }
+      .t3 { animation-delay: 2s; }   .t4 { animation-delay: 2.9s; animation-duration: .4s; }
+      .t5 { animation-delay: 3.7s; animation-duration: 1.4s; } .t6 { animation-delay: 5.3s; animation-duration: .4s; }
+      @keyframes type { to { width: 1100px; } }
+      .cursor { opacity: 0; animation: blink 1s step-end infinite 5.8s; }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+      .bar { width: 0; animation: fill 2.4s ease-out forwards 5.5s; }
+      @keyframes fill { to { width: 220px; } }
+      .scan { animation: scan 6s linear infinite; }
+      @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(440px); } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 50% { opacity: .35; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="440" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="440" rx="18" fill="url(#glow)"/>
+  <rect class="scan" x="0" y="0" width="1200" height="40" fill="#22d3ee" opacity="0.04"/>
+
+  <!-- window chrome -->
+  <rect x="0.5" y="0.5" width="1199" height="439" rx="18" fill="none" stroke="#22d3ee" stroke-opacity="0.25"/>
+  <path d="M18 0.5H1182a18 18 0 0 1 18 18V52H0V18.5A18 18 0 0 1 18 0.5Z" fill="#0f172a" opacity="0.9"/>
+  <circle cx="34" cy="26" r="7" fill="#ff5f56"/><circle cx="58" cy="26" r="7" fill="#ffbd2e"/><circle cx="82" cy="26" r="7" fill="#27c93f"/>
+  <text x="600" y="31" text-anchor="middle" class="mono" font-size="14" fill="#64748b">vishal@dev: ~/github — zsh</text>
+  <circle class="pulse" cx="1120" cy="26" r="5" fill="#4ade80"/>
+  <text x="1132" y="31" class="mono" font-size="13" fill="#4ade80">online</text>
+
+  <!-- name -->
+  <text x="60" y="112" class="mono" font-size="48" font-weight="700" fill="url(#name)" filter="url(#neon)" letter-spacing="2">VISHAL MACHE</text>
+  <text x="1140" y="112" text-anchor="end" class="mono" font-size="15" fill="#475569">// mobile · full-stack · AI</text>
+
+  <g class="mono" font-size="22">
+    <text x="60" y="164" clip-path="url(#c1)"><tspan class="p">❯</tspan><tspan class="cmd"> whoami</tspan></text>
+    <text x="60" y="204" clip-path="url(#c2)" class="out">→ mobile &amp; full-stack developer from <tspan class="hl">India</tspan>, building apps end to end</text>
+    <text x="60" y="254" clip-path="url(#c3)"><tspan class="p">❯</tspan><tspan class="cmd"> cat stack.txt</tspan></text>
+    <text x="60" y="294" clip-path="url(#c4)" class="out">→ <tspan class="hl">Flutter</tspan> · <tspan class="hl">React</tspan> · <tspan class="hl">TypeScript</tspan> · <tspan class="hl">Python</tspan> · <tspan class="mg">AI systems</tspan></text>
+    <text x="60" y="344" clip-path="url(#c5)"><tspan class="p">❯</tspan><tspan class="cmd"> ./deploy --project </tspan><tspan class="mg">screenique</tspan></text>
+    <text x="60" y="384" clip-path="url(#c6)" class="out">→ [</text>
+  </g>
+  <rect x="98" y="368" height="18" rx="3" fill="#1e293b" width="220" opacity="0"><set attributeName="opacity" to="1" begin="5.5s" fill="freeze"/></rect>
+  <rect class="bar" x="98" y="368" height="18" rx="3" fill="url(#name)"/>
+  <text x="330" y="384" class="mono out" font-size="22" opacity="0">] shipping → <tspan class="hl">screenique.in</tspan><tspan class="cursor" fill="#22d3ee"> ▋</tspan><set attributeName="opacity" to="1" begin="5.6s" fill="freeze"/></text>
+</svg>

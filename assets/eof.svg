@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-label="End of file. Thanks for stopping by.">
+  <defs>
+    <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="0.5" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9" stop-opacity="0"/></linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .run { animation: run 3s linear infinite; } @keyframes run { from { transform: translateX(-400px); } to { transform: translateX(1200px); } }
+      .blink { animation: blink 1s step-end infinite; } @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+  <rect x="0" y="20" width="1200" height="1" fill="#1e293b"/>
+  <rect class="run" x="0" y="19" width="400" height="3" fill="url(#acc)"/>
+  <text x="600" y="64" text-anchor="middle" class="mono" font-size="16" fill="#64748b"><tspan fill="#4ade80">❯</tspan> exit 0  <tspan fill="#475569">//</tspan> thanks for stopping by<tspan class="blink" fill="#22d3ee"> ▋</tspan></text>
+</svg>

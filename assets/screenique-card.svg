@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Currently building Screenique: good movies, better people. screenique.in">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#05070d"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+    <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9"/></linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#818cf8" fill-opacity="0.12"/></pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .pulse { animation: pulse 1.6s ease-in-out infinite; } @keyframes pulse { 50% { opacity: .3; } }
+      .sweep { animation: sweep 4s linear infinite; } @keyframes sweep { from { transform: translateX(-300px); } to { transform: translateX(1200px); } }
+      .ring { transform-origin: 1040px 120px; animation: spin 12s linear infinite; } @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+    <clipPath id="frame"><rect width="1200" height="240" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="240" fill="url(#bg)"/>
+    <rect width="1200" height="240" fill="url(#dots)"/>
+    <rect class="sweep" x="0" y="0" width="300" height="240" fill="url(#acc)" opacity="0.05"/>
+    <rect x="0" y="0" width="6" height="240" fill="url(#acc)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="18" fill="none" stroke="#818cf8" stroke-opacity="0.3"/>
+
+  <g class="mono">
+    <text x="48" y="58" font-size="15" fill="#64748b">~/projects/<tspan fill="#22d3ee">screenique</tspan>  <tspan fill="#475569">on</tspan> <tspan fill="#e879f9">⎇ main</tspan></text>
+    <rect x="48" y="78" width="96" height="26" rx="13" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-opacity="0.5"/>
+    <circle class="pulse" cx="66" cy="91" r="5" fill="#4ade80"/>
+    <text x="80" y="96" font-size="13" fill="#4ade80" font-weight="700">LIVE</text>
+    <text x="48" y="152" font-size="46" font-weight="700" fill="#f1f5f9" letter-spacing="1">Screenique<tspan fill="url(#acc)">_</tspan></text>
+    <text x="48" y="190" font-size="19" fill="#94a3b8">Good movies, better people.</text>
+    <text x="48" y="218" font-size="15" fill="#22d3ee">↗ screenique.in</text>
+  </g>
+
+  <!-- orbit emblem -->
+  <g class="ring" fill="none" stroke="url(#acc)">
+    <circle cx="1040" cy="120" r="78" stroke-opacity="0.5" stroke-dasharray="4 10"/>
+    <circle cx="1040" cy="42" r="5" fill="#22d3ee" stroke="none"/>
+  </g>
+  <circle cx="1040" cy="120" r="52" fill="#0f172a" stroke="url(#acc)" stroke-width="2"/>
+  <path d="M1028 98 L1062 120 L1028 142 Z" fill="url(#acc)"/>
+  <g class="mono" font-size="13" fill="#64748b" text-anchor="end">
+    <text x="900" y="96">flutter</text><text x="900" y="124">react · ts</text><text x="900" y="152">firebase</text>
+  </g>
+</svg>
